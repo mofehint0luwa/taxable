@@ -28,7 +28,7 @@ body {
   height: 100%;
 }
 
-.headerMiddle  {
+.headerMiddle {
   width: 100%;
   flex-basis: 1fr;
   display: flex;
