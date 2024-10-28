@@ -7,9 +7,9 @@
 body {
   background-color: #e2dfd0;
   margin: 0px;
-  padding: 15px 40px;
+  padding: 5px 40px;
   display: grid;
-  gap: 30px;
+  gap: 15px;
 }
 
 .header {
