@@ -9,7 +9,7 @@ body {
   margin: 0px;
   padding: 5px 40px;
   display: grid;
-  gap: 15px;
+  gap: 25px;
 }
 
 .header {
@@ -96,7 +96,7 @@ body {
   background-color: #e2bfd9;
   width: 700px;
   margin: auto;
-  height: 450px;
+  height: 400px;
   grid-template-columns: 1fr 1fr;
   gap: 1.5px;
 }
@@ -104,27 +104,33 @@ body {
 .content {
   display: flex;
   flex-direction: column;
+  height: 400px;
   background-color: #e2dfd0;
-  padding: 20px 10px;
+  padding: 0px 10px;
 }
 
 .image {
   background-color: #e2dfd0;
   display: flex;
+  height: 400px;
 }
 
 .mobile {
-  height: 450px;
+  height: 400px;
   margin: auto;
 }
 
 h1 {
+  color: #2e236c;
   font-size: 20px;
   font-weight: bold;
+  text-align: center;
 }
 
 p {
+  font-family: "Sora", sans-serif;
   line-height: 1.5rem;
+  text-align: center;
 }
 
 .footer {

@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  background-color: #e2bfd9;
+  width: 750px;
+  margin: auto;
+  height: 400px;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 1.5px;
+}
+
+.box {
+  display: grid;
+  background-color: #e2dfd0;
+}
+
+.project {
+  background-color: #e2dfd0;
+  margin: auto;
+  width: 170px;
+  height: 150px;
+  border-radius: 20px;
+  transition: all 0.5s;
+}
+
+.project:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  height: 180px;
+  width: 200px;
+}
