@@ -13,13 +13,32 @@
       rel="stylesheet"
     />
     <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="icon"
       href="../images/favicon-removebg-preview.png"
     />
   </head>
   <body>
     <div class="header">
-      <div class="headerLeft"></div>
+      <div class="headerLeft">
+        <img
+          class="logo"
+          src="../images/logo-removebg-preview (2).png"
+          alt="taxable logo"
+        />
+      </div>
 
       <div class="headerMiddle"></div>
 
@@ -28,10 +47,25 @@
       </div>
     </div>
 
-    <div>
+    <div class="middle">
+      <div class="image">
+        <img
+          class="mobile"
+          src="../images/mobile login.png"
+          alt=" mobile login preview"
+        />
+      </div>
       <div class="container">
         <form class="form">
-          <div><p>Login to Account</p></div>
+          <div class="div-text">
+            <img
+              class="text"
+              src="../images/text-removebg-preview.png"
+              alt="taxable"
+            />
+          </div>
+
+          <div><p>Login to Your Account</p></div>
 
           <div class="input-container">
             <span class="icon"
@@ -39,7 +73,11 @@
                 class="svg"
                 src="../images/email-svgrepo-com.svg"
             /></span>
-            <input type="email" />
+            <input
+              type="email"
+              placeholder="enter your email"
+              required
+            />
           </div>
 
           <div class="input-container">
@@ -48,7 +86,11 @@
                 class="svg"
                 src="../images/lock-svgrepo-com.svg"
             /></span>
-            <input type="password" />
+            <input
+              type="password"
+              placeholder="enter your password"
+              required
+            />
           </div>
 
           <div class="input-container">
@@ -58,8 +100,18 @@
               value="LOGIN"
             />
           </div>
+
+          <div>
+            <a class="register" href="../sign-up/index.html"
+              ><p>click here to register</p></a
+            >
+          </div>
         </form>
       </div>
+    </div>
+
+    <div class="footer">
+      <footer>© 2024 taxable</footer>
     </div>
   </body>
 </html>

@@ -149,4 +149,6 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
+  font-family: "sora", sans-serif;
+  font-weight: 600;
 }
