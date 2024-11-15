@@ -1,0 +1,138 @@
+body {
+  background-color: #e2dfd0;
+  margin: 0px;
+  display: grid;
+  gap: 5px;
+}
+
+.header {
+  display: flex;
+  height: 100px;
+  width: 100%;
+}
+
+.headerLeft {
+  flex-basis: 200px;
+  display: flex;
+  height: 100px;
+}
+
+.logo {
+  height: 80px;
+  width: 100px;
+  margin: auto;
+}
+
+.middle {
+  display: grid;
+  background-color: #e2bfd9;
+  width: 1300px;
+  margin: auto;
+  height: 480px;
+  grid-template-columns: 1fr 3fr;
+  gap: 1.5px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #e2dfd0;
+  padding: 0px 10px;
+}
+
+#form {
+  background-color: #e2bfd9;
+  color: #2e236c;
+  margin: auto;
+  height: 360px;
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 0px 10px;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.div-text {
+  height: 50px;
+  width: 100px;
+}
+
+.text {
+  width: 100%;
+  height: 100%;
+}
+
+.input-container {
+  border: solid 1px none;
+  display: flex;
+  gap: 5px;
+  border-radius: 10px;
+  height: 30px;
+  align-items: center;
+  padding: 1px 0px;
+}
+
+input {
+  border-radius: 10px;
+  background-color: #e2dfd0;
+  border: none;
+  font-family: "sora", sans-serif;
+  height: 100%;
+  width: 150px;
+}
+
+#add-button {
+  color: #2e236c;
+  background-color: #c8a1e0;
+  border-radius: 50px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.5s;
+  height: 35px;
+  width: 150px;
+  font-family: "sora", sans-serif;
+  font-weight: 600;
+}
+
+#add-button:hover {
+  transition: 0.5s;
+  background-color: #bb9ab1;
+  font-weight: 900;
+  height: 40px;
+  width: 120px;
+}
+
+.display {
+  background-color: #e2dfd0;
+  display: flex;
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  margin: 0px 5px;
+}
+
+h2 {
+  font-family: "Sora", sans-serif;
+  line-height: 1.5rem;
+  text-align: center;
+  color: #2e236c;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  color: #2e236c;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #2e236c;
+}
